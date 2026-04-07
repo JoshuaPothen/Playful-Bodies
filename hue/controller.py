@@ -20,12 +20,13 @@ import logging
 import subprocess
 from typing import Optional
 
+from utils.config import cfg
+
 log = logging.getLogger(__name__)
 
-# Set this to your gallery room name, e.g. "Gallery" or "Living Room".
-# When set, every command becomes `openhue set room <name> …` (one call).
+# Room name from config.yaml → openhue set room <name>
 # When None, the wrapper fetches all light IDs each time.
-DEFAULT_ROOM: Optional[str] = "Living room"
+DEFAULT_ROOM: Optional[str] = cfg["hue"]["room"] or None
 
 OPENHUE_BIN = "openhue"
 
