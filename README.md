@@ -248,7 +248,7 @@ Each physical lamp in the room is mapped to a zone in the camera frame. The syst
 This means you walk up to a floor lamp to activate it, but you raise your hand toward a wall light.
 
 ### Colour by crowd size
-
+![LampMode_IdleState](https://github.com/user-attachments/assets/98194cb0-6e8f-4cd7-a345-f6063976f85d) ![LampMode_2_Person](https://github.com/user-attachments/assets/ff8e25d2-384f-45e5-a7b3-56b443172012) ![LampMode_3_Person](https://github.com/user-attachments/assets/9837f6b6-4ee0-4e0a-9842-bd84e6db98de) ![LampMode_4_Person](https://github.com/user-attachments/assets/744349a1-64ee-47b0-abd6-a74adca7890f)
 The colour of all active lamps shifts with the total number of people detected in frame:
 
 | People in frame | Active lamp (nearby) | Idle lamp (not nearby) |
