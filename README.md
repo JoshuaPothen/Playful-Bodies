@@ -177,7 +177,7 @@ Press **Q** in the debug window (or **Ctrl-C** in the terminal) to quit.
 ---
 
 ## Crowd Mode — Interaction Patterns
-<img width="3840" height="2160" alt="CrowdMode_Squat_real" src="https://github.com/user-attachments/assets/9b040792-538e-45a9-8de9-754d031ba675" />
+<img width="1920" height="1080" alt="CrowdMode_Squat_real" src="https://github.com/user-attachments/assets/9b040792-538e-45a9-8de9-754d031ba675" />
 The system detects six states. When multiple conditions are true simultaneously, the highest-priority state wins. Each state has a minimum hold time before transitioning, preventing flickering.
 
 ### State priority (highest → lowest)
@@ -218,7 +218,7 @@ The system detects six states. When multiple conditions are true simultaneously,
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/753e2239-9d70-4623-b314-17eae08b9297" height="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/753e2239-9d70-4623-b314-17eae08b9297" height="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2c4e4206-5e67-421c-b92f-e9b40946b862" height="200"/></td>
   </tr>
 </table>
 
@@ -263,7 +263,8 @@ states:
 
 ## Lamp Mode — Interaction Patterns
 
-![LampMode1](https://github.com/user-attachments/assets/a160fb90-153a-4baf-b11b-598bc6a07a0d)
+![LampMode1](https://github.com/user-attachments/assets/a160fb90-153a-4baf-b11b-598bc6a07a0d)<img width="1679" height="935" alt="HuddleLeft" src="https://github.com/user-attachments/assets/2b10d443-18b7-46b6-895d-c5d19683701a" />
+
 
 Each physical lamp in the room is mapped to a zone in the camera frame. The system independently tracks each lamp zone.
 
@@ -319,6 +320,7 @@ Run once before using lamp mode. You will click on each lamp in the camera view 
 ```bash
 python3 calibrate.py
 ```
+<img width="1416" height="935" alt="LampMode_calibration" src="https://github.com/user-attachments/assets/70677f13-a2a3-41aa-8f51-7f84b89ba0e9" />
 
 ### Step-by-step
 
