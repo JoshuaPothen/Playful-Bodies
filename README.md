@@ -1,4 +1,8 @@
-# PlayfulHome — Person Tracked Light Controller
+# Playful Bodies — Person Tracked Light Controller
+
+Playful Bodies is an interactive installation that turns a room full of people into a living control panel for the lights around them. No buttons, no apps, no instructions you have to read first. Just your body, the people around you, and the space you're all sharing.
+
+Discovery is part of the experience, the slow realization that the room is watching, the moment someone figures out why the lights just changed, the negotiation that happens when a group tries to coordinate a gesture they've never done together before. That process of collective sense-making is the work.
 
 A local, real-time system that watches a room through a camera and uses crowd pose detection to control Philips Hue lights. No cloud services, no apps — just a camera, a Hue bridge, and a Python process.
 
